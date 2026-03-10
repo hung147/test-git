@@ -1,0 +1,64 @@
+.page {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 56px 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 44px;
+  letter-spacing: -0.03em;
+}
+
+.header p {
+  margin: 10px 0 0;
+  opacity: 0.85;
+}
+
+.card {
+  margin-top: 28px;
+  padding: 18px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(10px);
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+button {
+  appearance: none;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.09);
+  color: inherit;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: rgba(255, 255, 255, 0.32);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+button.secondary {
+  opacity: 0.9;
+}
+
+.muted {
+  margin: 12px 0 0;
+  opacity: 0.8;
+}
+
+.hint {
+  margin: 6px 0 0;
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+
